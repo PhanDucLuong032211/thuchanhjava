@@ -13,5 +13,5 @@ public class slide35 {
             min = b;
         }
         System.out.println("So nho nhat trong hai so la: " + min);
-    }
+   scanner.close(); }
 }

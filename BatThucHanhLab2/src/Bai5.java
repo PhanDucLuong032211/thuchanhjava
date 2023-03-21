@@ -9,6 +9,6 @@ public class Bai5 {
             x=sc.nextInt();
             tong=tong+x;
         }System.out.print("tong cac so da nhap ="+tong);
-    }
+    sc.close();}
     
 }

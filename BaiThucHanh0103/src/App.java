@@ -1,4 +1,4 @@
-import java.util.IntSummaryStatistics;
+
 import java.util.Scanner;
 
 public class App {
@@ -27,6 +27,7 @@ public class App {
                 if(arrA[i][j] %2 == 0) tong+= arrA[i][j];
             }
         }
+        sc.close();
         System.out.println("tong = " + tong);
     }
 }

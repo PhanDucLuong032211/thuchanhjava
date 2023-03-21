@@ -5,6 +5,7 @@ public class Slide40 {
     int so;
     System.out.println("nhap vao gia tri 1 den 7:");
     so = sc.nextInt();
+    sc.close();
     switch(so){
         case 1 : System.out.println("chu nhat");break;
         case 2 : System.out.println("thu hai");break;

@@ -4,13 +4,13 @@ public class Slide47 {
     public static void main(String[] args) {
         int tong = 0;
         int[] A = new int[100];
-        int X = 0;int z=0;
+        int x = 0;int z=0;
         
         Scanner sc = new Scanner(System.in);
         
         while (tong <= 100) {
             System.out.print("Nhap so nguyen: ");
-            int x = sc.nextInt();
+            x = sc.nextInt();
             tong += x;
             A[z] = x;
             z++;
@@ -21,5 +21,5 @@ public class Slide47 {
             System.out.print(" + " + A[i]);
         }
         System.out.println(" = " + tong);
-    }
+    sc.close();}
 }
