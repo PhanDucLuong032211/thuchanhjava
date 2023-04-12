@@ -1,4 +1,5 @@
-public class App {
+package HinhTruTron;
+public class MainHinhTruTron {
     public static void main(String[] args) throws Exception {
         HinhTruTron htt= new HinhTruTron();
         htt.nhapbkcc();

@@ -1,3 +1,4 @@
+package HinhTruTron;
 import java.util.Scanner;
 
 public class HinhTruTron {
