@@ -1,20 +1,16 @@
 package Shapes;
+public class HinhTru extends HinhTron{
+    private float banKinh;
+    private final float PI=3.14f;
+    private float chieuCao;
+    public void nhapChieuCao(float chieuCao){
+       this.chieuCao=chieuCao;
+    }
+    public void nhapBanKinh(float banKinh){
+        this.banKinh=banKinh;
+    }
 
-import java.util.Scanner;
-
-public class HinhTru extends HinhTron {
-    public float chieuCao;
-    public HinhTru(){
-        ten="Hinh Tru";
-    }
-    public void nhapChieuCao(){
-        nhapBanKinh();
-        System.out.println("Chieu Cao="+chieuCao);
-        Scanner sc=new Scanner(System.in);
-        chieuCao=sc.nextFloat();
-    }
-    public void tinhTheTich(){
-        tinhDienTich();
-        theTich=dienTich*chieuCao;
-    }
+    public float tinhTheTich(){
+       return PI*banKinh*banKinh*chieuCao;
+}
 }

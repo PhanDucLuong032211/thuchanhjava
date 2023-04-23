@@ -1,27 +1,19 @@
 package Shapes;
-
-import java.util.Scanner;
-
 public class HinhChuNhat extends HinhHoc {
-    public float dai;
-    public float rong;
-    public HinhChuNhat(){
-        ten="Hinh Chu Nhat";
+    private float dai;
+    private float rong;
+    public void nhapChieuDai(float dai){
+       this.dai=dai;
     }
-    public void nhapChieuDai(){
-        System.out.println("Chieu Dai="+dai);
-        Scanner sc=new Scanner(System.in);
-        dai=sc.nextFloat();
+    public void nhapChieuRong(float rong){
+        this.rong=rong;
     }
-    public void nhapChieuRong(){
-        System.out.println("Chieu Rong="+rong);
-        Scanner sc=new Scanner(System.in);
-        rong=sc.nextFloat();
+    public float tinhChuVi(){
+        return
+        2*(dai+rong);
     }
-    public void tinhChuVi(){
-        chuVi=2*(dai+rong);
-    }
-    public void tinhDienTich(){
-        dienTich=dai*rong;
+    public float tinhDienTich(){
+        return
+        dai*rong;
     }
 }

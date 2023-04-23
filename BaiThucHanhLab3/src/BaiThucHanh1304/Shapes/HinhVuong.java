@@ -1,14 +1,13 @@
 package Shapes;
-
-import java.util.Scanner;
-
-public class HinhVuong extends HinhChuNhat {
-    public HinhVuong(){
-        ten="Hinh Vuong";
+public class HinhVuong extends HinhHoc {
+    private float canh;
+    public void nhapCanh(float canh){
+        this.canh=canh;
     }
-    public void nhapCanh(){
-        System.out.println("Canh=");
-        Scanner sc=new Scanner(System.in);
-        dai=rong=sc.nextFloat();
-    }
-}
+public float tinhChuVi(){
+    return
+    canh*4;}
+    public float tinhDienTich(){
+        return
+        canh*canh;
+    }}
