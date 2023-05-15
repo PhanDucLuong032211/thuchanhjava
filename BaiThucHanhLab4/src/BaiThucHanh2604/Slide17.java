@@ -11,7 +11,7 @@ public class Slide17 {
         arrListInteger.add(1); arrListInteger.add(9);
         
         System.out. println( "Cac phan tu co trong arrListString la: "); 
-        for (int number: arrListInteger) {
+        for (int number : arrListInteger) {
         
         System.out.print(number + "\t");
 }}}
