@@ -20,7 +20,7 @@ public class Bai2 {
        }
        int tong=0;
        int dem=0;
-       int tbc=0;
+       float tbc=0;
        for(int i=0;i<aList.size();i++){
         if(aList.get(i)%2==0){
             tong=tong+aList.get(i);
@@ -28,5 +28,5 @@ public class Bai2 {
             tbc=tong/dem;
         }
        }
-       System.out.println("Trung binh cong = "+tbc);
+       System.out.println("Trung binh cong cua cac so chan la = "+tbc);
 }}
