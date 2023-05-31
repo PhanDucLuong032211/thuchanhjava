@@ -48,7 +48,7 @@ public class SinhVien5 {
         }
 
        
-        System.out.print("Nhập tên Lớp: ");
+        System.out.print("Nhap ten Lop: ");
         String tenLop = scanner.nextLine();
 
         System.out.println("sinh vien thuoc lop " + tenLop + ":");
